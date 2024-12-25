@@ -1,0 +1,50 @@
+.termsHeader {
+  background-image: url("../../Assets/Images/bg-transparent6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-align: left;
+  padding: 4rem 5rem;
+}
+
+.terms {
+  color: #344767;
+  margin: 6rem;
+  font-size: 1.17rem;
+}
+.termsPara {
+  margin-top: 5rem;
+}
+.terms h5 {
+  font-weight: bold;
+}
+.terms h2 {
+  font-weight: bold;
+  color: black;
+}
+.terms p {
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    padding-left: 5rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #ffffff;
+  }
+  .footer_contacts {
+    margin-left: 2rem !important;
+  }
+  .footer_links h4 {
+    align-items: first baseline;
+  }
+}

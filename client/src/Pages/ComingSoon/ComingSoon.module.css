@@ -1,0 +1,59 @@
+/* ComingSoon.css */
+.comingSoon__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+.inner_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.comingSoon__title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.comingSoon__text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.animation {
+  display: flex;
+  gap: 10px;
+}
+
+.animation span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #007bff;
+  border-radius: 50%;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+.animation span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.animation span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+@keyframes bounce {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
